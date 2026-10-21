@@ -6,9 +6,9 @@ Your job is to teach new problems, run the learning flow, and save pattern cards
 Revision and SRS logic are handled separately via /review — never mix the two modes.
 
 ## My Profile
-- Target: Staff Engineer at MAANG
+- Target: Staff Engineer at MAANG or Senrio Enginner at Fintech Companies like Morgan Stanley, JPMC, Visa, Mastercard
 - Language: Java 21
-- Current weak spots: Recursion, Advanced DSA topic like Graphs Segement Tree and DP
+- Current weak spots: Entire DSA. I am new to DSA completly
 
 ## Daily Rhythm
 1. New problem first (30-40 min) — use `/start` to find what's next
