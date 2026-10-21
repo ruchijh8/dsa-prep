@@ -24,5 +24,14 @@
   "editor.suggest.showModules": true,
   "editor.suggest.showProperties": true,
   "editor.suggest.showKeywords": true,
-  "editor.suggest.showSnippets": false
+  "editor.suggest.showSnippets": false,
+  
+  "editor.quickSuggestions": { "other": false, "comments": false, "strings": false },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "java.completion.enabled": false
+  
 }

@@ -12,7 +12,7 @@
 ## Arrays & Hashing
 | File | Problem | Tag | Stage | Review Date | Last Rating | Review Count | Graduated |
 |---|---|---|---|---|---|---|---|
-| — | Contains Duplicate | hashset | — | | | | |
+| contains-duplicate-solved.md | Contains Duplicate | hashset / seen-before | 1 | 2026-10-22 | — | 0 | No |
 | — | Valid Anagram | hashmap / frequency | — | | | | |
 | two-sum-solved.md | Two Sum | hashmap / complement-lookup | 3 | | | | |
 | — | Group Anagrams | hashmap | — | | | | |
