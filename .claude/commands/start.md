@@ -1,30 +1,27 @@
 Read @notes/REVIEW.md.
 
+Goal: work through the NeetCode 150 in the order listed in REVIEW.md, before anything else.
+
 Run these checks in order and show the first one that applies:
 
 ## Link Rule (applies to ALL checks)
-Always display the Problem Link for every problem announced — sprint due, suggested, or gap.
-Fetch the link from the problem's solved note file (grep "Problem Link").
+Always display the Problem Link for every problem announced — sprint due or next NeetCode problem.
+For a solved problem, fetch the link from its note file (grep "Problem Link").
+For an unsolved problem there is no note yet — give its LeetCode URL.
 Never announce a problem without its link.
 
-## Check 1 — Pattern Lock Sprint Active?
+## Check 1 — Sprint Due?
 Find any Stage 1 or Stage 2 problem whose Review Date is today or overdue.
 If found → show a table with columns: Problem | Stage | Due | Link
 Include ALL overdue/due sprint problems, each with its Problem Link.
 Announce: "Sprint active. Run /review-dsa first before starting a new problem."
 
-## Check 2 — 3-Problem Rule: Pattern in Progress?
-Find the most recently added pattern tag (last few rows of REVIEW.md).
-Count how many problems share that tag across all rows.
-If < 3 → announce: "Pattern [tag] has [N]/3 problems. Suggested next:" and give one unseen problem from that same tag — include its Problem Link.
+## Check 2 — Next NeetCode 150 Problem
+Scan REVIEW.md from the top, section by section, row by row.
+Pick the FIRST row whose File column is "—" (not solved yet). Ignore pattern tags, the 3-problem rule and pattern gaps.
+Announce: "NeetCode 150 progress: [solved]/[total rows]. Next up:" and show Problem | Section | Tag | Link.
 Follow the full coaching flow from CLAUDE.md once I confirm.
 
-## Check 3 — Pattern Gap?
-Find pattern tags not seen in any Review Date within the last 7 days.
-Pick the tag with the oldest last-review date as the gap.
-Announce: "Gap found: [tag] — last practiced [date]. Suggested:" and give one unseen problem from that tag — include its Problem Link.
-Follow the full coaching flow from CLAUDE.md once I confirm.
-
-## If no checks fire
-All patterns are fresh and at 3+ problems.
-Announce: "All patterns solid. Time to start a new one. Picking from your weakest area..." and suggest the next pattern based on MAANG frequency (DP > Backtracking > Greedy > advanced graph > rest).
+## If nothing is left
+Every NeetCode 150 row has a file.
+Announce: "NeetCode 150 complete." and suggest the next pattern based on MAANG frequency (DP > Backtracking > Greedy > advanced graph > rest).
