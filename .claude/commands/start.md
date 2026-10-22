@@ -7,7 +7,7 @@ Run these checks in order and show the first one that applies:
 ## Link Rule (applies to ALL checks)
 Always display the Problem Link for every problem announced — sprint due or next NeetCode problem.
 For a solved problem, fetch the link from its note file (grep "Problem Link").
-For an unsolved problem there is no note yet — give its LeetCode URL.
+For an unsolved problem there is no note yet — look it up in @notes/NEETCODE-LINKS.md and give its NeetCode URL (format https://neetcode.io/problems/<slug>/question; the "/question" suffix is required). Never guess a slug. Mention the LeetCode number alongside it if you know it.
 Never announce a problem without its link.
 
 ## Check 1 — Sprint Due?

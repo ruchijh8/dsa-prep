@@ -12,8 +12,8 @@
 ## Arrays & Hashing
 | File | Problem | Tag | Stage | Review Date | Last Rating | Review Count | Graduated |
 |---|---|---|---|---|---|---|---|
-| contains-duplicate-solved.md | Contains Duplicate | hashset / seen-before | 1 | 2026-10-22 | — | 0 | No |
-| — | Valid Anagram | hashmap / frequency | — | | | | |
+| contains-duplicate-solved.md | Contains Duplicate | hashset / seen-before | 1 | 2026-10-23 | Okay | 1 | No |
+| valid-anagram-solved.md | Valid Anagram | frequency-array / int[26] | 1 | 2026-10-23 | — | 0 | No |
 | — | Two Sum | hashmap / complement-lookup | — | | | | |
 | — | Group Anagrams | hashmap | — | | | | |
 | — | Top K Frequent Elements | heap / bucket-sort | — | | | | |

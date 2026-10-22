@@ -1,13 +1,13 @@
 # Contains Duplicate — Easy
-Problem Link: https://leetcode.com/problems/contains-duplicate/
+Problem Link: https://neetcode.io/problems/duplicate-integer/question
 Solved Date: 2026-10-21
 Pattern Tag: hashset / seen-before
 
 ## SRS Tracking
 - Stage: 1
-- Review Date: 2026-10-22
-- Last Rating: —
-- Review Count: 0
+- Review Date: 2026-10-23
+- Last Rating: Okay
+- Review Count: 1
 - Graduated: No
 
 ---
